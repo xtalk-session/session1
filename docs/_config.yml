@@ -13,21 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 日欧DHクロストーク
-email: your-email@example.com
-description: 日本とヨーロッパのライブラリアンが集う場をオンライン上に設けます。ヨーロッパ側からは、デジタルヒューマニティーズを支える図書館のさまざまな活動について。日本側からは、図書館が国内外に発信するデジタルアーカイブやその運営・活用について、それぞれ報告をおこないます。それをふまえて後半では、日本とヨーロッパ両方からのパネリスト、さらには参加してくださるみなさんも含め、国内での議論とは異なるさまざまな視点からの意見交換をおこないます。
-baseurl: "/session1" # the subpath of your site, e.g. /blog
-url: "https://xtalk-session.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: 日欧DHクロストーク　―　大学図書館による研究支援のこれから
+description: デジタルアーカイブ学会 第 8 回研究大会サテライト企画（オンライン）
+
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 #theme: minima
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-pdf-embed
 
 
 # Exclude from processing.
