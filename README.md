@@ -1,4 +1,4 @@
-#  日欧DHクロストーク のページ
+#  「日欧DHクロストーク」のページ
 
 サイトはJekyllを使ってます。
 
@@ -17,6 +17,6 @@ Themeには[slate](https://github.com/pages-themes/slate)を使っています�
 $ cd session1 
 $ cd docs
 $ bundle install
-[$ bundle add webrick] # 次のコマンドでエラーが発生した場合
+[$ bundle add webrick] # 次のコマンドでエラーが発生した場合（MacOSでHomebrewを使ってると起きるかも）
 $ bundle exec jekyll serve 
 ```
